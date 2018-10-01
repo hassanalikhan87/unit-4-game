@@ -1,16 +1,21 @@
 /* General Elements*/
 body{
-	background-image: url("../images/background.png")
+	margin: auto;
+}
+.wrapper{
+	margin: auto;
+	width: 900px;
+	align-content: center;
 }
 div{
 	background-color: white;
 	margin: 10px;
-	width: 25%
-}
-div{
+	width: 25%;
 	border: solid 2px antiquewhite;
 	padding: 10px;
+	margin: auto;
 }
+
 h1, h3, span{
 	font-weight: bold;
 	text-align: center;
@@ -30,24 +35,31 @@ div.header, div.gems{
 	background-color: #e0e0eb;
 }
 div.header, div.instructions{
-	width: 50%;
+	width: 80%;
 }
 /* Classes */
 .numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
+	margin: auto;
+	width: 80%;
 	height: 60px;
+	text-align: center;;
 }
 .userTotal{
-	width: 15%;
 	height: 60px;
-}
+	width: 80%;
+	margin: auto;
+	text-align: center;
+;}
 .gems{
 	clear: both;
+	margin: auto;
+	width: 80%;
+	text-align: center;
 }
 .gemImage{
 	height: 60px;
 	margin: 10px;
+
 }
 /* IDs */
 #blue{
@@ -61,4 +73,7 @@ div.header, div.instructions{
 }
 #yellow{
 	color: #ffc225;
+}
+#numberWins{
+	text-align: left;
 }
